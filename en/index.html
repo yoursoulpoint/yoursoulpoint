@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Основная информация -->
+  <meta name="description" content="Точка Души — пространство внутренней ясности. Психолог и энергопрактик Сауле Есенжолова помогает пройти путь к себе." />
+  <meta name="keywords" content="психолог онлайн, терапия, энергопрактика, консультация, Сауле Есенжолова, внутренняя ясность" />
+  <meta name="author" content="Сауле Есенжолова" />
+<!-- Для соцсетей (Open Graph для Facebook, Telegram и т.п.) -->
+  <meta property="og:title" content="Точка Души — Сауле Есенжолова" />
+  <meta property="og:description" content="Пространство внутренней ясности: психология, тело и границы." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yoursoulpoint.com/" />
+<!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Точка Души — Сауле Есенжолова" />
+  <meta name="twitter:description" content="Пространство внутренней ясности: психология, тело и границы." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.16/dist/css/uikit.min.css"/>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="icons/logo.svg" type="image/svg" />
+  <title>Soul Point</title>
+</head>
+<body>
+
+<header class="header" data-uk-sticky="top:100; animation: uk-animation-slide-top">
+  <div class="header-inner uk-flex uk-flex-between uk-flex-middle uk-container">
+    
+    <!-- ЛОГО -->
+    <div class="logo uk-flex uk-flex-middle">
+      <a href="https://yoursoulpoint.com">
+        <img src="icons/logo.svg" alt="Логотип" class="logo-img" />
+      </a>
+      <div class="logo-text uk-margin-left">
+        <h1 class="logo-title">Soul Point</h1>
+        <p class="logo-subtitle">A space for inner clarity</p>
+      </div>
+    </div>
+
+    <!-- ПОМОЩЬ -->
+    <div class="help uk-visible@m">
+      <h1 class="help-title">Need help?</h1>
+      <p class="help-subtitle">We provide online consultations</p>
+    </div>
+
+    <!-- ИКОНКИ + МЕНЮ -->
+    <div class="icons-header uk-flex uk-flex-middle uk-flex-nowrap">
+      <a href="mailto:saulesoulpoint@gmail.com" title="Почта"><img src="icons/mail.svg" alt="Mail" /></a>
+      <a href="https://t.me/yoursoulpoint"><img src="icons/telegram.svg" alt="Telegram" /></a>
+      <a href="https://wa.me/77073632430"><img src="icons/whatsapp.svg" alt="WhatsApp" /></a>
+      <a href="tel:+77073632430"><img src="icons/phone.svg" alt="Phone" /></a>
+      <a href="https://www.instagram.com/yoursoulpoint" class="menu-link"><img src="icons/instagram.svg" alt="Instagram" /></a>
+
+      <!-- КНОПКА МЕНЮ ВНУТРИ icons-header -->
+      <button class="uk-button uk-button-default" type="button" uk-toggle="target: #offcanvas-menu">
+        <img src="icons/menu.svg" alt="Menu" />
+      </button>
+    </div>
+
+  </div>
+</header>
+
+<!-- ВЫЕЗЖАЮЩЕЕ МЕНЮ -->
+<div id="offcanvas-menu" uk-offcanvas="overlay: true; flip: true">
+  <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+    
+    <!-- Верхняя часть: логотип, язык и крестик -->
+    <div class="offcanvas-top uk-flex uk-flex-middle">
+      <!-- Лого слева -->
+      <div class="offcanvas-logo uk-flex-1">
+        <img src="icons/logo.svg" alt="Логотип" style="height: 80px;" />
+      </div>
+
+      <!-- Язык по центру -->
+      <div class="lang-switcher uk-flex-1 uk-text-center">
+        <a href="https://yoursoulpoint.com" class="lang-btn">RU</a> |
+        <a href="https://yoursoulpoint.com/en/" class="lang-btn">EN</a>
+      </div>
+
+      <!-- Крестик закрытия -->
+      <div class="uk-flex-1 uk-text-right">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+      </div>
+    </div>
+
+    <!-- Меню -->
+    <div class="menu-wrapper uk-margin-top">
+      <ul class="uk-nav uk-nav-default">
+        <li><a href="#about-card" class="menu-link">About Me</a></li>
+        <li><a href="#therapy-section" class="menu-link">Types of Therapy</a></li>
+        <li><a href="#education" class="menu-link">Education</a></li>
+        <li><a href="#consult-section-title" class="menu-link">Services</a></li>
+        <li><a href="#reviews" class="menu-link">Reviews</a></li>
+        <li><a href="#contacts" class="menu-link">Contacts</a></li>
+      </ul>
+
+      <!-- Контакты -->
+      <div class="uk-margin-top">
+        <p class="question">Have a question? Write to us:</p>
+        <div class="uk-flex uk-flex-center uk-flex-middle uk-child-width-auto uk-grid-small" uk-grid>
+          <div><a href="mailto:saulesoulpoint@gmail.com"><img src="icons/mail.svg" alt="Mail"/></a></div>
+          <div><a href="https://t.me/yoursoulpoint"><img src="icons/telegram.svg" alt="Telegram"/></a></div>
+          <div><a href="https://wa.me/77073632430"><img src="icons/whatsapp.svg" alt="WhatsApp"/></a></div>
+          <div><a href="tel:+77073632430"><img src="icons/phone.svg" alt="Phone"/></a></div>
+          <div><a href="https://www.instagram.com/yoursoulpoint"><img src="icons/instagram.svg" alt="Instagram"/></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ГЛАВНЫЙ БЛОК -->
+<div class="main-content">
+  <div class="content">
+    <p class="content-tagline">Psychologist · Energy Practitioner</p>
+    <h2 class="content-name">Saule Esenzholova</h2>
+    <p class="content-description">
+      I work at the intersection of psyche, body, and personal boundaries.<br>
+      I help guide the path from inner conflict<br>
+      to the freedom of being yourself.<br><br>
+      A consultative member of the<br>
+      All-Russian Professional Psychotherapeutic League (OPPL).
+  </p>
+  </div>
+  <div class="cta-button-wrapper">
+    <a href="https://wa.me/77073632430" class="cta-button">Book a Session</a>
+  </div>
+</div> <!-- main-content -->
+  <section class="about-card" id="about-card">
+    <h2 class="about-name">Saule Esenzholova</h2>
+    <p class="about-text">
+      I am a practicing psychologist, energy practitioner, and coach who supports people on their journey of inner healing and growth.
+      <br><br>
+      My path began with deep personal transformation and continued in India, where I spent 7 years practicing and studying at EKAM — one of the well-known spiritual centers.
+      <br><br>
+      Today, I help adults cope with anxiety, loss, inner emptiness, family difficulties, and a loss of meaning.
+      <br><br>
+      I create a safe space where you can hear the voice of your soul, restore your inner boundaries, and reconnect with your true self.
+      <br><br>
+      In my work, I use transactional and existential analysis, as well as knowledge of family psychology, cognitive-behavioral therapy methods, metaphorical associative cards (MAC), and more.
+      <br><br>
+      My professional foundation includes three key areas: mathematics, law, and psychology. This unique combination gives me a special depth and structure in working with clients.
+      <br><br>
+      Mathematics<br>
+      Taught me to think systemically, see hidden connections, and build both external and internal logic. In my client work, I often notice internal "formulas" of behavior a person lives by and gently help bring them to awareness and transformation.
+      <br><br>
+      Law<br>
+      Gave me a clear understanding of boundaries, structure, and responsibility. With over 15 years of legal practice, I’ve learned to support people calmly and precisely in crisis situations. This experience helps me understand clients’ inner experiences more deeply — especially in acute or legal contexts.
+      <br><br>
+      Psychology<br>
+      Is my conscious choice in mature adulthood. Thanks to life, professional, and spiritual experience, I came to psychological practice as a calling that integrates everything I’ve studied — logic, law, and soul.
+      <br><br>
+      My strength as a psychologist lies in the combination of deep empathy and clear structure. I know how to be gentle yet precise, supportive yet guiding.<br>
+      I hear not only words — I sense the inner logic of pain, fear, and confusion — and help navigate through it.
+    </p>
+  </section>
+  <img src="icons/wave.svg" alt="Divider wave" class="wave-divider" />
+
+  <section class="therapy-section" id="therapy-section">
+    <h2 class="therapy-title">Types of Therapy</h2>
+    <div class="therapy-cards">
+      <article class="therapy-card">
+        <h3 class="therapy-card-title">Psychological Therapy</h3>
+        <p class="therapy-card-subtitle">
+          Deep work with trauma, inner conflicts,<br>
+          and recurring life patterns.<br>
+          Based on acceptance, self-honesty,<br>
+          and building internal support.
+        </p>
+      </article>
+
+      <article class="therapy-card">
+        <h3 class="therapy-card-title">Body-Based Practices</h3>
+        <p class="therapy-card-subtitle">
+          Breath, grounding, and body awareness — tools<br>
+          for returning to yourself.<br>
+          Through the body, we process emotions<br>
+          and restore connection with reality.
+        </p>
+      </article>
+
+      <article class="therapy-card">
+        <h3 class="therapy-card-title">Metaphorical Cards (MAC)</h3>
+        <p class="therapy-card-subtitle">
+          Images as the language of the soul.<br>
+          The cards help bring awareness to feelings,<br>
+          discover new meanings, and see inner truth<br>
+          in a soft and gentle way.
+        </p>
+      </article>
+
+      <article class="therapy-card">
+        <h3 class="therapy-card-title">Energy Practices & Meditation</h3>
+        <p class="therapy-card-subtitle">
+          Slow practices of silence and presence.<br>
+          Releasing overload, restoring energy,<br>
+          tuning into your true nature.<br>
+          I use both original and time-tested techniques.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="help-section">
+    <div class="help-container">
+      <div class="help-text">
+        <h2 class="help-title">You don't have to go through this alone. Asking for help is a sign of strength.</h2>
+        <p class="help-subtitle">Your feelings matter. Body responses are not random. Give yourself care.</p>
+      </div>
+      <a href="https://wa.me/77073632430" class="help-btn">Book a Session</a>
+    </div>
+  </section>
+  
+  <section id="education" class="education-section">
+    <h2 class="section-title">Education</h2>
+
+    <div class="edu-block">
+      <h3>MBA CITY Business Academy (“MCOD” LLC)</h3>
+      <p>Professional retraining diploma</p>
+      <p>Specialization: Psychology</p>
+    </div>
+
+    <div class="edu-divider"></div>
+
+    <div class="edu-block">
+      <h3>“21st Century Psychotherapist” Course</h3>
+      <p>“Evolucionika” Center</p>
+    </div>
+
+    <div class="edu-divider"></div>
+
+    <div class="edu-block">
+      <h3>Series of Courses at O&O Academy (India), 2015–2019</h3>
+      <p>One Consciousness Awakening Circle</p>
+      <p>One Consciousness Achievers Circle (Levels 1–4)</p>
+      <p>Journey Into Abundance (Level 1 and Advanced)</p>
+    </div>
+
+    <div class="edu-divider"></div>
+
+    <div class="edu-block">
+      <h3>Personal Therapy</h3>
+      <p>Courses in Training Personal Therapy</p>
+    </div>
+
+    <div class="edu-divider"></div>
+
+    <div class="edu-block">
+      <h3>Legal Education</h3>
+      <p>Moscow State Law Academy (MSLA, 2001), Law</p>
+    </div>
+
+    <div class="edu-divider"></div>
+
+    <div class="edu-block">
+      <h3>Mathematics Education</h3>
+      <p>Kalinin State University (now Tver State University, 1991), Mathematician</p>
+    </div>
+
+    <div class="edu-divider"></div>
+  </section>
+
+
+ <h2 class="consult-section-title" id="consult-section-title">Psychologist Consultation</h2>
+  <section class="consult-cards-section">
+    <div class="consult-cards">
+      <div class="consult-card">
+        <h3 class="consult-card-title">Initial Consultation</h3>
+        <p class="consult-line">Online, 20 minutes</p>
+        <p class="consult-subline">Free</p>
+        <a href="https://wa.me/77073632430" class="consult-btn">Book Now</a>
+      </div>
+      <div class="consult-card">
+        <h3 class="consult-card-title">Individual Consultation</h3>
+        <p class="consult-line">Online, 55 minutes</p>
+        <p class="consult-subline">20 000 ₸</p>
+        <p class="consult-subline-ru">4 000 ₽</p>
+        <p class="consult-subline-us">50 $</p>
+        <a href="https://wa.me/77073632430" class="consult-btn">Book Now</a>
+      </div>
+      <div class="consult-card">
+        <h3 class="consult-card-title">Deep Consultation</h3>
+        <p class="consult-line">Online, 110 minutes</p>
+        <p class="consult-subline">35 000 ₸</p>
+        <p class="consult-subline-ru">7 000 ₽</p>
+        <p class="consult-subline-us">90 $</p>
+        <a href="https://wa.me/77073632430" class="consult-btn">Book Now</a>
+      </div>
+    </div>
+  </section>
+
+<section id="reviews">
+  <h2>Reviews</h2>
+
+  <article class="review">
+    <p class="review-text">
+      Thank you, Saule, for the consultations! I realized I found *my* therapist. <br>
+      I didn’t expect my inner conflicts to gradually dissolve — and unexpectedly so — leaving me with a sense of peace. Most importantly, I now feel energy, new goals, and clarity about where I’m going. <br>
+      I’ll definitely recommend her to my friends!
+    </p>
+    <p class="review-author">Natalia Klimova, Moscow</p>
+  </article>
+
+  <article class="review">
+    <p class="review-text">
+      I want to wish Saule continued success and thank her for working with me. <br>
+      I was in a long-term depression and taking antidepressants due to family-related legal issues. I’m so grateful I had a consultation with Saule. <br>
+      For the first time, I was able to see my situation from the outside. Saule, with her knowledge in both law and psychology, helped me feel more confident and release long-held childhood blocks. I learned to defend my boundaries. <br>
+      The work continues, but I already see changes in myself and in how others treat me. <br>
+      And most importantly — I was able to stop taking antidepressants, and now I have so much energy, even I’m surprised!
+    </p>
+    <p class="review-author">Olga Radchenko, Astana</p>
+  </article>
+
+  <article class="review">
+    <p class="review-text">
+      I turned to Saule during a difficult period — it felt like everything in life had come to a halt. <br>
+      I had no energy or motivation to change anything, I felt lost. <br>
+      Saule helped me return to myself with great care and precision, step by step. <br>
+      Sessions with her aren’t just conversations — they’re deep immersions where suddenly it becomes clear what's true and what’s been imposed by others’ expectations. <br>
+      Now I feel more confident, it’s easier to make decisions and trust myself. <br>
+      Thank you from the bottom of my heart.
+    </p>
+    <p class="review-author">Elena Markevich, Tver</p>
+  </article>
+</section>
+
+<footer class="site-footer" id="contacts">
+  <div class="footer-inner">
+    <p class="footer-brand">© 2025 The Soul Point</p>
+
+    <div class="footer-contacts">
+      <a href="mailto:saulesoulpoint@gmail.com">saulesoulpoint@gmail.com</a>
+      <a href="tel:+77073632430">+7 707 363 2430</a>
+      <a href="https://t.me/yoursoulpoint" target="_blank" rel="noopener">Telegram</a>
+      <a href="https://wa.me/77073632430" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('#offcanvas-menu a[href^="#"]').forEach(link => {
+    link.addEventListener('click', () => {
+      UIkit.offcanvas('#offcanvas-menu').hide();
+    });
+  });
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.16/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.16/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>
