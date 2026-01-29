@@ -142,8 +142,8 @@ a {
 .content-tagline {
   font-family: 'Manrope', sans-serif;
   font-weight: 400;
-  font-size: 48px;
-  color: #000;
+  font-size: 36px;
+  color: #666;
   margin: 0 0 5px 0;
 }
 
@@ -151,7 +151,7 @@ a {
   font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 36px;
-  color: #333;
+  color: #666;
   margin: 0 0 5px 0;
 }
 
@@ -185,7 +185,7 @@ a {
   align-items: center;
   width: 320px;
   height: 100px;
-  background-color: #2A9D8F;
+  background-color: #d4a373;
   border-radius: 12px;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
@@ -196,7 +196,7 @@ a {
 }
 
 .cta-button:hover {
-  background-color: #248b80;
+  background-color: #c08a5a;
   color: #fff;
   text-decoration: none;
 }
@@ -312,7 +312,7 @@ a {
 .consult-btn {
   margin-top: 24px;
   padding: 16px 32px;
-  background-color: #2A9D8F;
+  background-color: #d4a373;
   color: #000;
   font-family: 'Inter', sans-serif;
   font-size: 18px;
@@ -323,7 +323,7 @@ a {
 }
 
 .consult-btn:hover {
-  background-color: #248b80;
+  background-color: #c08a5a;
   color: #fff;
   text-decoration: none;
 }
@@ -376,7 +376,7 @@ a {
 }
 
 .help-btn {
-  background-color: #2A9D8F;
+  background-color: #d4a373;
   color: #000;
   font-family: 'Inter', sans-serif;
   font-weight: 600;
@@ -389,7 +389,7 @@ a {
 }
 
 .help-btn:hover {
-  background-color: #248b80;
+  background-color: #c08a5a;
   color: #fff;
   text-decoration: none;
 }
