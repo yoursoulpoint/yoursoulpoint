@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="kz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Негізгі ақпарат -->
+  <meta name="description" content="Жан Нүктесі — ішкі айқындық кеңістігі. Психолог және энергия практикашысы Сауле Есенжолова өзіңді табу жолында көмектеседі." />
+  <meta name="keywords" content="онлайн психолог, терапия, энергия практикасы, кеңес, Сауле Есенжолова, ішкі айқындық" />
+  <meta name="author" content="Сауле Есенжолова" />
+  <!-- Әлеуметтік желілер үшін (Open Graph Facebook, Telegram және т.б.) -->
+  <meta property="og:title" content="Жан Нүктесі — Сауле Есенжолова" />
+  <meta property="og:description" content="Ішкі айқындық кеңістігі: психология, дене және шекаралар." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yoursoulpoint.com/" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Жан Нүктесі — Сауле Есенжолова" />
+  <meta name="twitter:description" content="Ішкі айқындық кеңістігі: психология, дене және шекаралар." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.16/dist/css/uikit.min.css"/>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="icons/logo.svg" type="image/svg" />
+  <title>Жан Нүктесі</title>
+</head>
+<body>
+
+<header class="header" data-uk-sticky="top:100; animation: uk-animation-slide-top">
+  <div class="header-inner uk-flex uk-flex-between uk-flex-middle uk-container">
+    
+    <!-- ЛОГО -->
+    <div class="logo uk-flex uk-flex-middle">
+      <a href="https://yoursoulpoint.com">
+        <img src="icons/logo.svg" alt="Логотип" class="logo-img" />
+      </a>
+      <div class="logo-text uk-margin-left">
+        <h1 class="logo-title">Жан Нүктесі</h1>
+        <p class="logo-subtitle">Ішкі айқындық кеңістігі</p>
+      </div>
+    </div>
+
+    <!-- КӨМЕК -->
+    <div class="help uk-visible@m">
+      <h1 class="help-title">Көмек қажет пе?</h1>
+      <p class="help-subtitle">Онлайн кеңес береміз</p>
+    </div>
+
+    <!-- ИКОНКИ + МЕНЮ -->
+    <div class="icons-header uk-flex uk-flex-middle uk-flex-nowrap">
+      <a href="mailto:saulesoulpoint@gmail.com" title="Пошта"><img src="icons/mail.svg" alt="Пошта" /></a>
+      <a href="https://t.me/yoursoulpoint"><img src="icons/telegram.svg" alt="Telegram" /></a>
+      <a href="https://wa.me/77073632430"><img src="icons/whatsapp.svg" alt="WhatsApp" /></a>
+      <a href="tel:+77073632430"><img src="icons/phone.svg" alt="Телефон" /></a>
+      <a href="https://www.instagram.com/yoursoulpoint" class="menu-link"><img src="icons/instagram.svg" alt="Instagram" /></a>
+
+      <!-- МЕНЮ ТҮЙМЕСІ icons-header ішінде -->
+      <button class="uk-button uk-button-default" type="button" uk-toggle="target: #offcanvas-menu">
+        <img src="icons/menu.svg" alt="Мәзір" />
+      </button>
+    </div>
+
+  </div>
+</header>
+
+<!-- ВЫЕЗЖАЮЩЕЕ МЕНЮ -->
+<div id="offcanvas-menu" uk-offcanvas="overlay: true; flip: true">
+  <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+    
+    <!-- Верхняя часть: логотип, язык и крестик -->
+    <div class="offcanvas-top uk-flex uk-flex-middle">
+      <!-- Лого слева -->
+      <div class="offcanvas-logo uk-flex-1">
+        <img src="icons/logo.svg" alt="Логотип" style="height: 80px;" />
+      </div>
+
+      <!-- Язык по центру -->
+      <div class="lang-switcher uk-flex-1 uk-text-center">
+        <a href="https://yoursoulpoint.com" class="lang-btn">RU</a> |
+        <a href="https://yoursoulpoint.com/en/" class="lang-btn">EN</a> |
+        <a href="https://yoursoulpoint.com/kz/" class="lang-btn">KZ</a>
+      </div>
+
+      <!-- Крестик закрытия -->
+      <div class="uk-flex-1 uk-text-right">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+      </div>
+    </div>
+
+    <!-- Меню -->
+    <div class="menu-wrapper uk-margin-top">
+      <ul class="uk-nav uk-nav-default">
+        <li><a href="#about-card" class="menu-link">Мен туралы</a></li>
+        <li><a href="#therapy-section" class="menu-link">Терапия түрлері</a></li>
+        <li><a href="#education" class="menu-link">Білімім</a></li>
+        <li><a href="#consult-section-title" class="menu-link">Қызметтер</a></li>
+        <li><a href="#reviews" class="menu-link">Пікірлер</a></li>
+        <li><a href="#contacts" class="menu-link">Байланыс</a></li>
+      </ul>
+
+      <!-- Контакты -->
+      <div class="uk-margin-top">
+        <p class="question">Сұрақ бар ма? Жазыңыз:</p>
+        <div class="uk-flex uk-flex-center uk-flex-middle uk-child-width-auto uk-grid-small" uk-grid>
+          <div><a href="mailto:saulesoulpoint@gmail.com"><img src="icons/mail.svg" alt="Пошта"/></a></div>
+          <div><a href="https://t.me/yoursoulpoint"><img src="icons/telegram.svg" alt="Telegram"/></a></div>
+          <div><a href="https://wa.me/77073632430"><img src="icons/whatsapp.svg" alt="WhatsApp"/></a></div>
+          <div><a href="tel:+77073632430"><img src="icons/phone.svg" alt="Телефон"/></a></div>
+          <div><a href="https://www.instagram.com/yoursoulpoint"><img src="icons/instagram.svg" alt="Instagram"/></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ГЛАВНЫЙ БЛОК -->
+<div class="main-content">
+  <div class="content-wrapper">
+    <div class="content">
+      <p class="content-tagline">Психолог · Энергия практикашысы</p>
+      <h2 class="content-name">Сауле Есенжолова</h2>
+      <p class="content-description">
+        Психика, дене және жеке шекаралар арасындағы<br>жұмысты жүргіземін.<br>
+        Ішкі қақтығыстан<br>
+        өзің болу еркіндігіне жетуге көмектесемін.<br><br>
+        Мен — Жалпы Ресейлік Кәсіби<br>Психотерапевтикалық Лиганың<br>
+        консультативтік мүшесім (ОППЛ).    
+      </p>
+    </div>
+    <div class="cta-button-wrapper">
+      <a href="https://wa.me/77073632430" class="cta-button">Кеңес алу</a>
+    </div>
+  </div>
+  <img class="photo" src="icons/IMG_0444.jpg">
+</div>
+<!-- ГЛАВНЫЙ БЛОК -->
+  <section class="about-card" id="about-card">
+    <h2 class="about-name">Мен туралы</h2>
+    <p class="about-text">
+           Мен практикалық психолог, энергия практикашысы және коучпын, адамдарға ішкі сауығу мен дамуға жол көрсетемін.
+      <br><br>
+           Менің жолым терең жеке трансформациядан басталып, кейін Үндістанда 7 жыл бойы ЭКАМ — белгілі рухани орталықта тәжірибе жасап, білім алдым.
+      <br><br>
+           Бүгінде мен ересек адамдарға алаңдаушылық, жоғалтулар, ішкі босдық, отбасыдағы қиындықтар және өмір мәнін іздеуге көмектесемін.
+      <br><br>
+           Мен қауіпсіз кеңістік құрамын, онда адамның жан дауысын тыңдап, ішкі шекарасын қалпына келтіріп, өзіне оралуға болады.
+      <br><br>
+           Практикамда мен транзакциялық және экзистенциалдық талдауды қолданамын, сонымен қатар отбасылық психология, когнитивтік-бихевиоральды терапия, МАК және басқа әдістерді пайдаланамын.
+      <br><br>    
+           Менің кәсіби базамда үш негізгі бағыт бар: математика, құқықтану және психология. Бұл бірегей комбинация клиентпен жұмыс кезінде ерекше тереңдік пен құрылым береді.
+      <br><br> 
+           Математикалық білімім <br>
+           Маған жүйелі ойлауды, жасырын байланыстарды көруді және логиканы құруды үйретті — сыртқы және ішкі. Клиентпен жұмыс кезінде адамның өмір сүретін ішкі «формулаларын» байқап, оларды жұмсақ түрде саналы түрде өзгертуге көмектесемін.
+      <br><br>    
+           Құқықтық білімім <br>
+           Маған шекараларды, құрылымды және жауапкершілікті нақты түсінуге мүмкіндік берді. 15 жылдан астам құқықтық тәжірибе адамдарды дағдарыстық жағдайда тыныш және нақты сүйемелдеуге үйретті. Бұл тәжірибе клиенттің ішкі сезімін тереңірек түсінуге көмектеседі, әсіресе қиын немесе құқықтық контексте.
+      <br><br> 
+           Психология <br>
+           Бұл менің саналы таңдаған мамандығым. Өмірлік, кәсіби және рухани тәжірибем арқылы мен психологиялық практиканы өзімнің шақыруым ретінде қабылдадым, ол мен үйренген барлық нәрсені — логиканы, заңды, жанды біріктіреді.
+      <br><br>
+           Психолог ретінде күшім — терең эмпатия мен айқын құрылымды үйлестіруде. Мен нәзік, бірақ нақты; қолдаушы, бірақ бағыттаушы бола аламын. <br>
+           Мен тек сөзді естіп қана қоймаймын — ішкі ауырсыну, қорқыныш, шатасуды түсінемін және онымен күресуге көмектесемін.    
+    </p>
+  </section>
+
+  <img src="icons/wave.svg" alt="Бөлу толқыны" class="wave-divider" />
+
+<section class="therapy-section" id="therapy-section">
+  <h2 class="therapy-title">Терапия түрлері</h2>
+  <div class="therapy-cards">
+    <article class="therapy-card">
+      <h3 class="therapy-card-title">Психологиялық терапия</h3>
+      <p class="therapy-card-subtitle">
+        Травма, ішкі конфликттермен терең жұмыс<br>
+        және қайталанатын сценарийлер.<br>
+        Негізі – өзін қабылдау, адалдық<br>
+        және ішкі тірек қалыптастыру.
+      </p>
+    </article>
+
+    <article class="therapy-card">
+      <h3 class="therapy-card-title">Дене практикасы</h3>
+      <p class="therapy-card-subtitle">
+        Дем алу, жерге тұру, денеге назар аудару –<br>
+        өзіңізге оралу құралдары.<br>
+        Дене арқылы эмоцияларды сеземіз<br>
+        және шынайылықпен байланысымызды қалпына келтіреміз.
+      </p>
+    </article>
+
+    <article class="therapy-card">
+      <h3 class="therapy-card-title">Метафорикалық карталар (МАК)</h3>
+      <p class="therapy-card-subtitle">
+        Бейнелер – жанның тілі.<br>
+        Карталар сезімдерді түсінуге,<br>
+        жаңа мағыналар табуға және ішкі шындықты<br>
+        жұмсақ әрі сақтықпен көруге көмектеседі.
+      </p>
+    </article>
+
+    <article class="therapy-card">
+      <h3 class="therapy-card-title">Энергиялық практикалар мен медитациялар</h3>
+      <p class="therapy-card-subtitle">
+        Жайлы тыныштық және қазіргі сәтте болу практикалары.<br>
+        Шаршаудан тазарту, ресурс қалпына келтіру,<br>
+        өз табиғатыңа бағдарлану.<br>
+        Авторлық және тексерілген әдістерді қолданамын.
+      </p>
+    </article>
+  </div>
+</section>
+
+<section class="help-section">
+  <div class="help-container">
+    <div class="help-text">
+      <h2 class="help-title">Сіз өмірдегі қиындықтарды жалғыз еңсеруге міндетті емессіз. Көмек сұрау<br> – бұл күштің көрінісі.</h2>
+      <p class="help-subtitle">Сезімдеріңіз маңызды. Дененің реакциясы кездейсоқ емес. Өзіңізге қамқорлық жасаңыз.</p>
+    </div>
+    <a href="https://wa.me/77073632430" class="help-btn">Кеңес алу</a>
+  </div>
+</section>
+
+<section id="education" class="education-section">
+  <h2 class="section-title">Білім</h2>
+
+  <div class="edu-block">
+    <h3>«MBA CITY» Бизнес Академиясы (ЖШС «МЦДО»)</h3>
+    <p>Кәсіби қайта даярлау дипломы</p>
+    <pБағыт: Психология</p>
+  </div>
+
+  <div class="edu-divider"></div>
+
+  <div class="edu-block">
+    <h3>«21 ғасыр психотерапевті» курсы</h3>
+    <p>«Эволюционика» орталығы</p>
+  </div>
+
+  <div class="edu-divider"></div>
+
+  <div class="edu-block">
+    <h3>O&O Academy сериясы (Үндістан), 2015–2019</h3>
+    <p>One Consciousness Awakening Circle</p>
+    <p>One Consciousness Achievers Circle (Деңгей 1–4)</p>
+    <p>Journey Into Abundance (Деңгей 1 және Advanced)</p>
+  </div>
+
+  <div class="edu-divider"></div>
+
+  <div class="edu-block">
+    <h3>Жеке терапия</h3>
+    <p>Жеке терапияны оқыту курстары</p>
+  </div>
+
+  <div class="edu-divider"></div>
+
+  <div class="edu-block">
+    <h3>Құқықтық білім</h3>
+    <p>Мәскеу мемлекеттік құқық академиясы (МГЮА, 2001), құқықтану</p>
+  </div>
+
+  <div class="edu-divider"></div>
+
+  <div class="edu-block">
+    <h3>Математикалық білім</h3>
+    <p>Калинин мемлекеттік университеті (қазіргі ТМУ, 1991), математик</p>
+  </div>
+
+  <div class="edu-divider"></div>
+</section>
+
+ <h2 class="consult-section-title" id="consult-section-title">Психолог кеңесі</h2>
+<section class="consult-cards-section">
+  <div class="consult-cards">
+    <div class="consult-card">
+      <h3 class="consult-card-title">Бастапқы кеңес</h3>
+      <p class="consult-line">Онлайн, 20 минут</p>
+      <p class="consult-subline">Тегін</p>
+      <a href="https://wa.me/77073632430" class="consult-btn">Кеңес алу</a>
+    </div>
+    <div class="consult-card">
+      <h3 class="consult-card-title">Жеке кеңес</h3>
+      <p class="consult-line">Онлайн, 55 минут</p>
+      <p class="consult-subline">30 000 ₸</p>
+      <p class="consult-subline-ru">6 000 ₽</p>
+      <p class="consult-subline-us">90 $</p>
+      <a href="https://wa.me/77073632430" class="consult-btn">Кеңес алу</a>
+    </div>
+    <div class="consult-card">
+      <h3 class="consult-card-title">Тереңдетілген кеңес</h3>
+      <p class="consult-line">Онлайн, 110 минут</p>
+      <p class="consult-subline">50 000 ₸</p>
+      <p class="consult-subline-ru">10 000 ₽</p>
+      <p class="consult-subline-us">150 $</p>
+      <a href="https://wa.me/77073632430" class="consult-btn">Кеңес алу</a>
+    </div>
+  </div>
+</section>
+
+<section id="reviews">
+  <h2>Пікірлер</h2>
+
+  <article class="review">
+    <p class="review-text">
+      Саулеге кеңестер үшін алғыс білдіремін! Мен өз психотерапевтімді тапқанымды түсіндім. <br>
+      Ішкі қақтығыстарым біртіндеп шешілуін күтпеген едім – жаным тыныштыққа бөленді, ең бастысы – энергия, жаңа мақсаттар және қайда бара жатқанымды түсіну. <br>
+      Әрқашан таныстарыма ұсынамын!
+    </p>
+    <p class="review-author">Наталья Климова, Мәскеу</p>
+  </article>
+
+  <article class="review">
+    <p class="review-text">
+      Саулеге сәттілік тілеймін және маған көрсеткен көмегі үшін үлкен алғыс айтқым келеді. <br>
+      Мен ұзақ мерзімді депрессияда болдым, отбасы мен сот мәселелері себепті антидепрессанттар қабылдадым, және Саулеге кеңес алуымнан өте қуаныштымын. <br>
+      Ақырында өз жағдайымды сырттай көре алдым. Сауле құқық және психология саласындағы білімі арқылы маған сенімді болуға және бала кезден келген блоктарды шешуге көмектесті. Мен өз шекараларымды қорғауды үйрендім. <br>
+      Жұмыс жалғасуда, өзімде және адамдармен қарым-қатынасымда өзгерістерді байқаймын. <br>
+      Ең бастысы – антидепрессанттарды тоқтата алдым, қазір белсенділігім соншалықты артты, өзім де таңғаламын!
+    </p>
+    <p class="review-author">Ольга Радченко, Астана</p>
+  </article>
+
+  <article class="review">
+    <p class="review-text">
+      Мен Саулеге қиын кезеңде жүгіндім – өмір тоқтап қалғандай көрінді. <br>
+      Күш, өзгертуге тілек болмады, өзін жоғалғандай сезіндім. <br>
+      Сауле өте мұқият және нақты түрде мені өзіме оралуға көмектесті, қадам-қадаммен. <br>
+      Оның сессиялары жай ғана әңгіме емес, шынайы тереңдікте шындықты және imposed күтілетін үміттерді ажырата бастағандай сезім береді. <br>
+      Қазір мен өзіме сенімдірек болдым, шешім қабылдау оңайырақ, өзіме сенім арта бастадым. <br>
+      Барлық жүректен рахмет.
+    </p>
+    <p class="review-author">Елена Маркевич, Тверь</p>
+  </article>
+</section>
+
+<footer class="site-footer" id="contacts">
+  <div class="footer-inner">
+    <p class="footer-brand">© 2026 Жан нүктесі</p>
+
+    <div class="footer-contacts">
+      <a href="mailto:saulesoulpoint@gmail.com">saulesoulpoint@gmail.com</a>
+      <a href="tel:+77073632430">+7 707 363 2430</a>
+      <a href="https://t.me/yoursoulpoint" target="_blank" rel="noopener">Telegram</a>
+      <a href="https://wa.me/77073632430" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('#offcanvas-menu a[href^="#"]').forEach(link => {
+    link.addEventListener('click', () => {
+      UIkit.offcanvas('#offcanvas-menu').hide();
+    });
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.16/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.16/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>
+
+
